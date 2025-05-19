@@ -1,0 +1,70 @@
+.vs/
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Rider and VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Sensitive files (optional)
+secrets.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+
+# Database local
+*.mdf
+*.ldf
+
+# Publish outputs
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Node/npm (if using with frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# JetBrains Rider
+.idea/
+
+# Windows crash dumps
+*.dmp
